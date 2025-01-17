@@ -1,0 +1,55 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.form-container {
+
+}
+
+.form-input {
+	width: 75%;
+	outline: 0;
+	padding: 5px;
+	border: 2px solid #222;
+	background: transparent;
+	font-size: 15px;
+	color: #222;
+}
+
+
+/*======================== hr with text ==============================*/
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    &::before {
+        content: '';
+        background: #222;
+        position: absolute;
+        left: 37.5%;
+        top: 50%;
+        width: 25%;
+        height: 1px;
+    }
+    &:after {
+        content:attr(data-content);
+        position: relative;
+        display: inline-block;
+        color: black;
+        padding: 0 0.5em;
+        line-height: 1.5em;
+
+        /* this is really the only tricky part, you need to 
+        specify the background color of the container element... */
+        color: #818078;
+        background-color: #fcfcfa;
+    }
+}
