@@ -1,0 +1,91 @@
+.register-container, .login-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 5%;
+    position: relative;
+}
+
+.register-container h1, .login-container h1 {
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-decoration-color: #222;
+    text-underline-offset: 0.5em;
+}
+
+.form-input {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.form-input input {
+	width: 100%;
+	outline: 0;
+	padding: 5px;
+	border: 3px solid #222;
+	background: transparent;
+	font-size: 15px;
+	color: #222;
+}
+
+.form-container button {
+    width: 50%;
+}
+
+.form-container button:hover {
+    background: #D9B89E;
+    color: white;
+    border: #D9B89E solid;
+}
+
+.form-container p {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.account-link {
+    color: blue; /* Or any desired color */
+    text-decoration: underline; /* Add or change any property */
+    font-size: 1rem;
+}
+
+/* signup containers with google and fb */
+.other-signups-container {
+    text-align: center;
+}
+
+
+/*======================== hr with text ==============================*/
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    &::before {
+        content: '';
+        background: #222;
+        position: absolute;
+        left: 37.5%;
+        top: 50%;
+        width: 25%;
+        height: 1px;
+    }
+    &:after {
+        content:attr(data-content);
+        position: relative;
+        display: inline-block;
+        color: black;
+        padding: 0 0.5em;
+        line-height: 1.5em;
+
+        /* this is really the only tricky part, you need to 
+        specify the background color of the container element... */
+        color: #222;
+        background-color: white;
+    }
+}

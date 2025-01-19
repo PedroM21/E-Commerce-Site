@@ -8,6 +8,28 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <img src="images/Logo.png" class="logo">
+        <div class="nav-container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icon-container">
+            <input type="text" placeholder="Search..." name="search">
+            <input type="image" src="images/icons/magnifying-glass-solid.svg" alt="search" class="icons">
+            <input type="image" src="images/icons/user-solid.svg" alt="account" class="icons">
+            <input type="image" src="images/icons/cart-shopping-solid.svg" alt="cart" class="icons">
+        </div>
+    </header>
+
     <div class="login-container">
         <h1>Login</h1>
         <div class="form-container">
@@ -15,9 +37,16 @@
                 <div class="form-input"><input type="text" id="email" name="email" placeholder="Email" required></div>
                 <div class="form-input"><input type="password" id="password" name="password" placeholder="Password" required></div>
                 <button type="submit">Submit</button>
+                <p>Don't have an account? <a href="signup.html" class="account-link">Signup</a></p>
             </form>
         </div>
-        <p>Don't have an account? <a href="signup.html">Signup</a></p>
+        
+    </div>
+
+    <div class="other-signups-container">
+        <hr class="hr-text" data-content="Or">
+        <img src="images/icons/bxl-facebook.svg">
+        <img src="images/icons/bxl-google.svg">
     </div>
 </body>
 </html>

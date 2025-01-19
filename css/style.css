@@ -44,20 +44,17 @@ header .icons {
     height: 5%;
 }
 
-li, a {
-    display: inline;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-}
-
 .nav-links li {
     display: inline-block;
     padding: 5px;
 }
 
-.nav-links li a {
-	transition: all 0.3s ease 0s;
+.nav-links li, a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
 }
 
 .nav-links li a:hover {
@@ -350,7 +347,7 @@ button {
 	width: 75%;
 	outline: 0;
 	padding: 5px;
-	border: 2px solid #222;
+	border: 3px solid #222;
 	background: transparent;
 	font-size: 15px;
 	color: #222;
