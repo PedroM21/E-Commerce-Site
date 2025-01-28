@@ -37,8 +37,21 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.</p>
                 <button class="hero-shop-btn">Shop Now</button>
             </div>
-            <div class="image-hero">
-                <img src="images/placeholder-image.png" class="newest-product">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="item active">
+                        <img src="images/placeholder-image.png" class="newest-product" alt="product 1">
+                    </div>
+                    <div class="item">
+                        <img src="images/prismatic_evo.png" class="newest-product" alt="product 1">
+                    </div>
+                    <div class="item">
+                        <img src="images/battle-partners.png" class="newest-product" alt="product 1">
+                    </div>
+                </div>
+                <button id="prevBtn" class="btn prev">Prev</button>
+                <button id="nextBtn" class="btn next">Next</button>
+                <div class="dots"></div>
             </div>
         </div>
     </section>
@@ -219,5 +232,7 @@
 			<p>© 2024 Pedro Moreno</p>
 		</div>
       </footer>
+
+      <script src="js/carousel.js"></script>
 </body>
 </html>

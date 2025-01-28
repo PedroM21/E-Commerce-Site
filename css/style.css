@@ -108,15 +108,71 @@ button {
     border: #D9B89E solid;
 }
 
-.image-hero {
-    text-align: center;
+.carousel-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    height: 500px;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .newest-product {
     border-radius: 10px;
-    max-width: 80%;
-    height: auto;
+    max-width: 90%;
+    max-height: 100%;
+    object-fit: contain;
 }
+
+.item {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.item.active {
+    opacity: 1;
+    display: block;
+}
+
+.btn {
+    position: absolute;
+    transform: translateY(-40%);
+    top: 40%;
+    width: 15%;
+    opacity: 0.5;
+}
+
+.btn:hover {
+    background: #D9B89E;
+    color: white;
+    border: #D9B89E solid;
+    opacity: 1;
+}
+
+.prev {
+    left: 10%;
+}
+
+.next {
+    right: 10%;
+}
+
 
 /*================= Popular Items Section =================*/
 .popular-items-container {
