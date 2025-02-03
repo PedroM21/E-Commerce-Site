@@ -28,15 +28,15 @@ header .icons {
     overflow: visible;
 }
 
+.icon-container a {
+    text-align: center;
+}
+
 .icon-container input[type=text] {
     border: none;
     padding: 10px;
     border-radius: 50px;
     outline: 0;
-}
-
-.icon-container input[type=image] {
-    margin-bottom: 10px;
 }
 
 .logo {
@@ -154,7 +154,7 @@ button {
     position: absolute;
     transform: translateY(-40%);
     top: 40%;
-    width: 15%;
+    max-width: 75px;
     opacity: 0.5;
 }
 
@@ -171,6 +171,10 @@ button {
 
 .next {
     right: 10%;
+}
+
+.hero-shop-btn {
+    width: 125px;
 }
 
 
@@ -421,6 +425,18 @@ button {
     background: #D9B89E;
     color: white;
     border: #D9B89E solid;
+}
+
+.has-success input, .has-success textarea {
+    border: 3px solid #D9B89E;
+}
+
+.has-error input, .has-error textarea {
+    border: 3px solid red;
+}
+
+.has-error {
+    color: red;
 }
 
 /*================= Footer Content =================*/

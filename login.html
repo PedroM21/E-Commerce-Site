@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/register.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/register.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <img src="images/Logo.png" class="logo">
+        <img src="assets/images/Logo.png" class="logo">
         <div class="nav-container">
             <nav>
                 <ul class="nav-links">
@@ -24,18 +24,24 @@
         </div>
         <div class="icon-container">
             <input type="text" placeholder="Search..." name="search">
-            <input type="image" src="images/icons/magnifying-glass-solid.svg" alt="search" class="icons">
-            <input type="image" src="images/icons/user-solid.svg" alt="account" class="icons">
-            <input type="image" src="images/icons/cart-shopping-solid.svg" alt="cart" class="icons">
+            <input type="image" src="assets/images/icons/magnifying-glass-solid.svg" alt="search" class="icons">
+            <input type="image" src="assets/images/icons/user-solid.svg" alt="account" class="icons">
+            <input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons">
         </div>
     </header>
 
     <div class="login-container">
         <h1>Login</h1>
         <div class="form-container">
-            <form>
-                <div class="form-input"><input type="text" id="email" name="email" placeholder="Email" required></div>
-                <div class="form-input"><input type="password" id="password" name="password" placeholder="Password" required></div>
+            <form action="" method="get">
+                <div id="emailDiv" class="form-input">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <div id="emailFeedback"></div>
+                </div>
+                <div id="pwdDiv" class="form-input">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <div id="pwdFeedback"></div>
+                </div>
                 <button type="submit">Submit</button>
                 <p>Don't have an account? <a href="signup.html" class="account-link">Signup</a></p>
             </form>
@@ -45,8 +51,10 @@
 
     <div class="other-signups-container">
         <hr class="hr-text" data-content="Or">
-        <img src="images/icons/bxl-facebook.svg">
-        <img src="images/icons/bxl-google.svg">
+        <img src="assets/images/icons/bxl-facebook.svg">
+        <img src="assets/images/icons/bxl-google.svg">
     </div>
+
+    <script src="assets/js/loginValidation.js"></script>
 </body>
 </html>

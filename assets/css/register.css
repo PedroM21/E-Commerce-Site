@@ -56,6 +56,18 @@
     text-align: center;
 }
 
+.has-success input, .has-success textarea {
+    border: 3px solid #D9B89E;
+}
+
+.has-error input, .has-error textarea {
+    border: 3px solid red;
+}
+
+.has-error {
+    color: red;
+}
+
 
 /*======================== hr with text ==============================*/
 .hr-text {
