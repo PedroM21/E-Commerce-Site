@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/product-details.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="assets/css/shop.css"> -->
+    <title>Product Details</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="assets/images/Logo.png" class="logo">
+        <div class="nav-container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="#shop">Shop</a></li>
+                    <li><a href="index.html#aboutUs">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icon-container">
+            <input type="text" placeholder="Search..." name="search">
+            <input type="image" src="assets/images/icons/magnifying-glass-solid.svg" alt="search" class="icons">
+            <input type="image" src="assets/images/icons/user-solid.svg" alt="account" class="icons">
+            <input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons">
+        </div>
+    </header>
+
+    <!-- Details -->
+    <div class="product-details-container">
+        <div class="product-images-sidebar">
+            <div class="image-sidebar">
+                <img src="assets/images/ss-etb.png">
+                <img src="assets/images/ss-1.png">
+                <img src="assets/images/ss-2.png">
+                <img src="assets/images/ss-3.png">
+                <img src="assets/images/ss-4.png">
+            </div>
+        </div>
+
+        <div class="product-main-image">
+            <img src="assets/images/ss-etb.png" id="prodImg">
+        </div>
+
+        <div class="product-info">
+            <div class="product-info-style">
+                <h2>Pokémon TCG: Scarlet & Violet-Surging Sparks Pokémon Center Elite Trainer Box</h2>
+                <p>$59.99</p>
+            </div>
+            
+            <div class="quantity-style">
+                <p>Quantity</p>
+                <button id="minusBtn">&minus;</button>
+                <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
+                <button id="plusBtn">&plus;</button>
+                <p style="color: #D9B89E; padding-top: 0.2rem">Product limit is 4</p>
+            </div>
+
+            <div class="add-to-cart">
+                <button>Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+
+     <!-- Description -->
+    <div class="product-description">
+        <div class="description">
+            <div class="description-header">
+                <h2>Description</h2>
+            </div>
+
+            <div class="description-text">
+                <p>                
+                    <span class="text-headers">The Pokémon TCG: Scarlet & Violet—Surging Sparks Pokémon Center Elite Trainer Box includes:</span><br><br>
+                    <li>11 Pokémon TCG: Scarlet & Violet—Surging Sparks booster packs<br></li>
+                    <li>Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack.<br></li>
+                    <li>1 full-art foil promo card featuring Magneton with a Pokémon Center logo<br></li>
+                    <li>1 full-art foil promo card featuring Magneton<br></li>
+                    <li>65 card sleeves<br></li>
+                    <li>45 Pokémon TCG Energy cards<br></li>
+                    <li>A player’s guide to the Scarlet & Violet—Surging Sparks expansion<br></li>
+                    <li>6 damage-counter dice<br></li>
+                    <li>1 competition-legal coin-flip die<br></li>
+                    <li>2 plastic condition markers<br></li>
+                    <li>A box to hold everything, with 4 dividers to keep it organized<br></li>
+                    <li>A code card for Pokémon Trading Card Game Live<br><br></li>
+                    
+                    <span class="text-headers">More Details:</span><br><br>
+                    <li>Item Dimensions: 7.4 x 3.4 x 6.5 IN<br></li>
+                    <li>Country Of Origin: Printed in the USA<br></li>
+                    <li>Materials: Paper / acrylic / polyresin / polypropylene<br></li>
+                    <li>Recommended Age: 6+ Years<br></li>
+                    <li>Item Weight: 1.7 LB<br></li>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>© 2024 Pedro Moreno</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/productDetails.js"></script>
+</body>
+</html>
