@@ -33,14 +33,16 @@
     <!-- Shopping Cart -->
     <h1 style="text-align: center; padding: 4rem;">Your Cart (<span id="cart-qty">#</span> items)</h1>
     <div class="shopping-cart-data-container">
+        <hr>
         <div class="cart-header">
             <h2>Item</h2>
             <h2>Price</h2>
             <h2>Quantity</h2>
             <h2>Total</h2>
+            
         </div>
-        
-        <div class="item-data-container">
+
+        <div class="cart-data">
             <div class="item-container">
                 <div class="cart-items">
                     <img src="assets/images/ss-etb.png">
@@ -55,22 +57,15 @@
                     <p>Stellar Crown Elite Trainer Box</p>
                 </div>
             </div>
-        </div>
 
-        <div class="price-data-container">
-            
             <div class="price-container">
-                <!-- <h2>Price</h2> -->
-                <p>$<span id="itemPrice1">00.00</span></p>
-                <p>$<span id="itemPrice2">00.00</span></p>
-                <p>$<span id="itemPrice3">00.00</span></p>
-            </div>
-        </div>
+                <div class="price-details"><p>$<span id="itemPrice1">00.00</span></p></div>
+                <div class="price-details"><p>$<span id="itemPrice2">00.00</span></p></div>
+                <div class="price-details"><p>$<span id="itemPrice3">00.00</span></p></div>
 
-        <div class="qty-data-container">
-            
+            </div>
+
             <div class="qty-container">
-                <!-- <h2>Quantity</h2> -->
                 <div class="qty-buttons">
                     <button id="minusBtn">&minus;</button>
                     <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
@@ -89,17 +84,16 @@
                     <button id="plusBtn">&plus;</button>
                 </div>  
             </div>
-        </div>
 
-        <div class="total-data-container">
-            <!-- <h2>Total</h2> -->
             <div class="total-container">
-                <p>$<span id="totalCost">00.00</span></p>
-                <p>$<span id="totalCost">00.00</span></p>
-                <p>$<span id="totalCost">00.00</span></p>
+                <div class="total-details"><p>$<span id="totalCost">00.00</span></p></div>
+                <div class="total-details"><p>$<span id="totalCost">00.00</span></p></div>
+                <div class="total-details"><p>$<span id="totalCost">00.00</span></p></div>
             </div>
+
         </div>
 
+        <hr>
     </div>
 
     <!-- Price Calculation -->
