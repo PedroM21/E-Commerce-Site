@@ -24,6 +24,11 @@
 .image-sidebar img {
     max-width: 50%;
     height: auto;
+    cursor: pointer;
+}
+
+.active {
+    border: #D9B89E 2px solid;
 }
 
 /*================= Main Product Image =================*/
