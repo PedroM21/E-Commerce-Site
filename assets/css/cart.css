@@ -1,0 +1,121 @@
+.shopping-cart-data-container {
+    display: grid;
+    grid-template-columns: 50% 15% 20% 15%;
+    border-bottom: #222 solid 2px;
+    border-top: #222 solid 2px;
+    margin: 4rem;
+}
+
+.cart-header {
+    display: contents;
+    text-align: left;
+}
+
+/*================= Item Section =================*/
+.item-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 80%;
+    padding: 1rem;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 4rem;
+}
+
+.cart-items {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cart-items img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+/*================= Price Section =================*/
+.price-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17rem;
+    padding-top: 10rem;
+}
+
+/*================= Quantity Section =================*/
+.qty-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.qty-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15rem;
+    padding-top: 10rem;
+}
+
+.qty-buttons {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.qty-buttons button {
+    width: 50px;
+    border: 1px solid #222;
+}
+
+.qty-buttons button:hover {
+    background: #D9B89E;
+    color: white;
+    border: #D9B89E;
+}
+
+.qty-buttons input {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #222;
+    text-align: center;
+}
+
+.qty-buttons input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -webkit-text: center;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/*================= Total Section =================*/
+.total-data-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.total-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17rem;
+    padding-top: 10rem;
+}

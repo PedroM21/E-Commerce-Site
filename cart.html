@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cart.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="assets/images/Logo.png" class="logo">
+        <div class="nav-container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contactUs">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icon-container">
+            <input type="text" placeholder="Search..." name="search">
+            <a href=""><input type="image" src="assets/images/icons/magnifying-glass-solid.svg" alt="search" class="icons"></a>
+            <a href="login.html"><input type="image" src="assets/images/icons/user-solid.svg" alt="account" class="icons"></a>
+            <a href=""><input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons"></a>
+        </div>
+    </header>
+
+    <!-- Shopping Cart -->
+    <h1 style="text-align: center; padding: 4rem;">Your Cart (<span id="cart-qty">#</span> items)</h1>
+    <div class="shopping-cart-data-container">
+        <div class="cart-header">
+            <h2>Item</h2>
+            <h2>Price</h2>
+            <h2>Quantity</h2>
+            <h2>Total</h2>
+        </div>
+        
+        <div class="item-data-container">
+            <div class="item-container">
+                <div class="cart-items">
+                    <img src="assets/images/ss-etb.png">
+                    <p>Surging Sparks Pokemon Center Elite Trainer Box</p>
+                </div>
+                <div class="cart-items">
+                    <img src="assets/images/black-card-sleeve.png">
+                    <p>Black card sleeves</p>
+                </div>
+                <div class="cart-items">
+                    <img src="assets/images/sc-etb.png">
+                    <p>Stellar Crown Elite Trainer Box</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-data-container">
+            
+            <div class="price-container">
+                <!-- <h2>Price</h2> -->
+                <p>$<span id="itemPrice1">00.00</span></p>
+                <p>$<span id="itemPrice2">00.00</span></p>
+                <p>$<span id="itemPrice3">00.00</span></p>
+            </div>
+        </div>
+
+        <div class="qty-data-container">
+            
+            <div class="qty-container">
+                <!-- <h2>Quantity</h2> -->
+                <div class="qty-buttons">
+                    <button id="minusBtn">&minus;</button>
+                    <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
+                    <button id="plusBtn">&plus;</button>
+                </div>
+
+                <div class="qty-buttons">
+                    <button id="minusBtn">&minus;</button>
+                    <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
+                    <button id="plusBtn">&plus;</button>
+                </div>
+
+                <div class="qty-buttons">
+                    <button id="minusBtn">&minus;</button>
+                    <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
+                    <button id="plusBtn">&plus;</button>
+                </div>  
+            </div>
+        </div>
+
+        <div class="total-data-container">
+            <!-- <h2>Total</h2> -->
+            <div class="total-container">
+                <p>$<span id="totalCost">00.00</span></p>
+                <p>$<span id="totalCost">00.00</span></p>
+                <p>$<span id="totalCost">00.00</span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Price Calculation -->
+
+</body>
+</html>
