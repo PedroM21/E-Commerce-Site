@@ -92,3 +92,69 @@ input[type=number] {
     display: flex;
     align-items: center;
 }
+
+/*================= Grandtotal =================*/
+.price-calc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 25%;
+    min-width: 20%;
+    position: absolute;
+    right: 0;
+    margin-right: 4rem;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.subtotal-container, .sales-tax-container, .coupon-code-container, .grand-total-container {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+}
+
+.subtotal-container, .sales-tax-container, .coupon-code-container {
+    border-bottom: #222 1px solid;
+}
+
+.subtotal-text, .sales-tax-text, .sales-code-text, .grand-total-text {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+.subtotal-price, .sales-tax-price, .sales-code-value, .grand-total-price {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+}
+
+.sales-code-value a {
+    color: #D9B89E;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/*================= Checkout button =================*/
+.checkout {
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.checkout button {
+    width: 50%;
+    max-width: 50%;
+    font-size: 1.2vw;
+}
+
+.checkout button:hover {
+    background: #D9B89E;
+    color: white;
+    border: #D9B89E solid;
+}
