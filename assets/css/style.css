@@ -449,6 +449,7 @@ footer {
 	background: #D9B89E;
 	justify-content: center;
 	align-items: center;
+    text-align: center;
 	padding: 30px 10%;
-	color: white;;
+	color: white;
 }
