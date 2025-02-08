@@ -56,7 +56,6 @@
     padding: 5px;
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .product-image {
@@ -68,6 +67,7 @@
 
 .product-content p {
     text-align: center;
+    cursor: pointer;
 }
 
 /*================= Pagination =================*/
@@ -82,7 +82,6 @@
     color: black;
     padding: 0.5rem;
     margin-bottom: 20px;
-    
     text-decoration: none;
     transition: background-color .3s, transform 0.2s;
     border-radius: 5px;

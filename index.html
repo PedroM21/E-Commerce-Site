@@ -13,10 +13,10 @@
         <div class="nav-container">
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home" class="active-page">Home</a></li>
                     <li><a href="shop.html">Shop</a></li>
                     <li><a href="#aboutUs">About Us</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="blogs.html">Blog</a></li>
                     <li><a href="#contactUs">Contact Us</a></li>
                 </ul>
             </nav>
@@ -25,28 +25,33 @@
             <input type="text" placeholder="Search..." name="search">
             <a href=""><input type="image" src="assets/images/icons/magnifying-glass-solid.svg" alt="search" class="icons"></a>
             <a href="login.html"><input type="image" src="assets/images/icons/user-solid.svg" alt="account" class="icons"></a>
-            <a href=""><input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons"></a>
+            <a href="cart.html"><input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons"></a>
         </div>
     </header>
     
     <!-- Hero Section -->
-    <section>
+    <section id="home">
         <div class="slideshow-container">
             <div class="description-hero">
-                <h1>Lorem ipsum dolor</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.</p>
+                <h1>Surging Sparks Out Now!</h1>
+                <p>
+                    Terawatts of electricity crash down from the sky in a tropical paradise, setting the stage for the supercharged Pikachu ex! 
+                    With the power of a Stellar Tera Pokémon ex, it lights up the shoreline, revealing a parade of dragon Pokémon led by the towering Alolan Exeggutor ex! 
+                    Archaludon ex and Latias ex round out the horde, while new ACE SPEC cards and more new Pokémon ex bring surprises of their own.
+                    Currents crackle and dragons roar in the Pokémon TCG: Scarlet & Violet—Surging Sparks expansion!
+                </p>
                 <button class="hero-shop-btn">Shop Now</button>
             </div>
             <div class="carousel-container">
                 <div class="carousel">
                     <div class="item active">
-                        <img src="assets/images/placeholder-image.png" class="newest-product" alt="product 1">
+                        <img src="assets/images/carousel/sv08-logo.png" class="newest-product" alt="Surging Sparks">
                     </div>
                     <div class="item">
-                        <img src="assets/images/prismatic_evo.png" class="newest-product" alt="product 1">
+                        <img src="assets/images/carousel/prismatic_evo.png" class="newest-product" alt="Prismatic Evolutions">
                     </div>
                     <div class="item">
-                        <img src="assets/images/battle-partners.png" class="newest-product" alt="product 1">
+                        <img src="assets/images/carousel/sv09-logo.png" class="newest-product" alt="Journey Together">
                     </div>
                 </div>
                 <button id="prevBtn" class="btn prev">Prev</button>
@@ -56,59 +61,55 @@
         </div>
     </section>
 
-     <!-- Popular items Section -->
+    <!-- Popular items Section -->
     <section>
         <h1 class="pop-header">Popular</h1>
         <div class="popular-items-container">
-                <div class="popular-item-cards">
-                    <img src="assets/images/sc-etb.png" class="popular-item-list">
-                    <div class="popular-card-container">
-                        <h4>Product Name</h4>
-                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                        <button>Add to Cart</button>
-                    </div>
-                </div>
-
-                <div class="popular-item-cards">
-                    <img src="assets/images/ss-etb.png" class="popular-item-list">
-                    <div class="popular-card-container">
-                        <h4>Product Name</h4>
-                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                        <button>Add to Cart</button>
-                    </div>
-                </div>
-
-                <div class="popular-item-cards">
-                    <img src="assets/images/black-card-sleeve.png" class="popular-item-list">
-                    <div class="popular-card-container">
-                        <h4>Product Name</h4>
-                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum</p>
-                        <button>Add to Cart</button>
-                    </div>
-                </div>
-
-                <div class="popular-item-cards">
-                    <img src="assets/images/placeholder-image.png" class="popular-item-list">
-                    <div class="popular-card-container">
-                        <h4>Product Name</h4>
-                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                    </div>
+            <div class="popular-item-cards">
+                <img src="assets/images/products/sc-etb.png" class="popular-item-list">
+                <div class="popular-card-container">
+                    <h4>Stellar Crown Elite Trainer Box</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
                     <button>Add to Cart</button>
                 </div>
-
-                <div class="popular-item-cards">
-                    <img src="assets/images/placeholder-image.png" class="popular-item-list">
-                    <div class="popular-card-container">
-                        <h4>Product Name</h4>
-                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-                        <button>Add to Cart</button>
-                    </div>
+            </div>
+            <div class="popular-item-cards">
+                <img src="assets/images/products/ss-etb.png" class="popular-item-list">
+                <div class="popular-card-container">
+                    <h4>Surging Sparks Elite Trainer Box</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    <button>Add to Cart</button>
                 </div>
+            </div>
+            <div class="popular-item-cards">
+                <img src="assets/images/products/black-card-sleeve.png" class="popular-item-list">
+                <div class="popular-card-container">
+                    <h4>Black Card Sleeves</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="popular-item-cards">
+                <img src="assets/images/products/journey-together.png" class="popular-item-list">
+                <div class="popular-card-container">
+                    <h4>Journey Together Booster Box</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="popular-item-cards">
+                <img src="assets/images/products/blue-card-sleeves.png" class="popular-item-list">
+                <div class="popular-card-container">
+                    <h4>Blue Card Sleeves</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- About us -->
-     <section id="aboutUs">
+    <section id="aboutUs">
         <div class="about-us-container">
             <img src="assets/images/placeholder-image.png">
             <div class="about-us-content">
@@ -119,7 +120,6 @@
                     molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus. Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit. Proin sit amet sem vitae leo molestie consectetur.</p>
             </div>
-        
             <div class="about-us-content">
                 <h4>Why Choose Us?</h4>
                 <p>
@@ -131,7 +131,6 @@
                 </p>
             </div>
             <img src="assets/images/placeholder-image.png">
-        
             <img src="assets/images/placeholder-image.png">
             <div class="about-us-content">
                 <h4>Upcoming Events</h4>
@@ -149,54 +148,54 @@
                     Format: Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                     Prize Pool: Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
                 </p>
-                
             </div>
         </div>
-       
-     </section>
+    </section>
 
      <!-- Blog -->
       <section class="blog-section">
-        <section style="background: #e9e6e6;"><h1 class="blog-header">Blogs</h1></section>
-        <div class="blog-container">
-            <div class="blog-cards">
-                <img src="assets/images/placeholder-image.png" class="blog-images">
-                <div class="blog-card-container">
-                    <h4>January 12, 2024</h4>
-                    <h1>Title</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.
-                    </p>
-                    <button>Read More</button>
+        <section style="background: #e9e6e6;">
+            <h1 class="blog-header">Blogs</h1>
+        </section>
+            <div class="blog-container">
+                <div class="blog-cards">
+                    <img src="assets/images/blog-example.png" class="blog-images">
+                    <div class="blog-card-container">
+                        <h4>January 12, 2024</h4>
+                        <h1>Title</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.
+                        </p>
+                        <button>Read More</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="blog-cards">
-                <img src="assets/images/placeholder-image.png" class="blog-images">
-                <div class="blog-card-container">
-                    <h4>January 8, 2024</h4>
-                    <h1>Title</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.
-                    </p>
-                    <button>Read More</button>
+                <div class="blog-cards">
+                    <img src="assets/images/placeholder-image.png" class="blog-images">
+                    <div class="blog-card-container">
+                        <h4>January 8, 2024</h4>
+                        <h1>Title</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.
+                        </p>
+                        <button>Read More</button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="blog-cards">
-                <img src="assets/images/placeholder-image.png" class="blog-images">
-                <div class="blog-card-container">
-                    <h4>January 4, 2024</h4>
-                    <h1>Title</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.
-                    </p>
-                    <button>Read More</button>
+                <div class="blog-cards">
+                    <img src="assets/images/placeholder-image.png" class="blog-images">
+                    <div class="blog-card-container">
+                        <h4>January 4, 2024</h4>
+                        <h1>Title</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet sem vitae leo molestie consectetur. Nulla neque odio, gravida vitae hendrerit id, consectetur condimentum ex. Quisque eu fringilla risus.
+                        </p>
+                        <button>Read More</button>
+                    </div>
                 </div>
             </div>
-        </div>
         <section style="background: #e9e6e6;" class="see-more-section">
-            <button>See More Posts</button>
+            <button><a href="blogs.html" style="all: unset;">See More Posts</a></button>
         </section>
       </section>
 
