@@ -103,6 +103,7 @@
 .title-container {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 3rem;
     /* border: blue solid 2px; */
 }
