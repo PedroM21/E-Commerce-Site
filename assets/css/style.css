@@ -315,8 +315,6 @@ button {
     /* overflow: hidden; */
     column-gap: 3rem;
     justify-content: center;
-
-    border: blue solid 2px;
 }
 
 .blog-cards {
