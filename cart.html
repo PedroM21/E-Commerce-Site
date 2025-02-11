@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cart.css">
-    <title>Document</title>
+    <title>Cart</title>
 </head>
 <body>
     <!-- Header -->
@@ -26,7 +26,7 @@
             <input type="text" placeholder="Search..." name="search">
             <a href=""><input type="image" src="assets/images/icons/magnifying-glass-solid.svg" alt="search" class="icons"></a>
             <a href="login.html"><input type="image" src="assets/images/icons/user-solid.svg" alt="account" class="icons"></a>
-            <a href="cart.html"><input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons"></a>
+            <a href="cart.html"><input type="image" src="assets/images/icons/cart-shopping-solid.svg" alt="cart" class="icons"><span id="cartAmount" class="cart-badge">0</span></a>
         </div>
     </header>
 
@@ -58,36 +58,36 @@
             </div>
 
             <div class="price-container">
-                <div class="price-details"><p>$<span id="itemPrice1">59.99</span></p></div>
-                <div class="price-details"><p>$<span id="itemPrice2">9.99</span></p></div>
-                <div class="price-details"><p>$<span id="itemPrice3">49.99</span></p></div>
+                <div class="price-details"><p>$<span class="itemPrice">59.99</span></p></div>
+                <div class="price-details"><p>$<span class="itemPrice">9.99</span></p></div>
+                <div class="price-details"><p>$<span class="itemPrice">49.99</span></p></div>
 
             </div>
 
             <div class="qty-container">
                 <div class="qty-buttons">
-                    <button id="minusBtn">&minus;</button>
-                    <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
-                    <button id="plusBtn">&plus;</button>
+                    <button class="minusBtn">&minus;</button>
+                    <input type="number" class="input-box qtyAmt" value="1" min="1" max="4">
+                    <button class="plusBtn">&plus;</button>
                 </div>
 
                 <div class="qty-buttons">
-                    <button id="minusBtn">&minus;</button>
-                    <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
-                    <button id="plusBtn">&plus;</button>
+                    <button class="minusBtn">&minus;</button>
+                    <input type="number" class="input-box qtyAmt" value="1" min="1" max="4">
+                    <button class="plusBtn">&plus;</button>
                 </div>
 
                 <div class="qty-buttons">
-                    <button id="minusBtn">&minus;</button>
-                    <input type="number" class="input-box" value="1" min="1" max="4" id="qtyAmt">
-                    <button id="plusBtn">&plus;</button>
+                    <button class="minusBtn">&minus;</button>
+                    <input type="number" class="input-box qtyAmt" value="1" min="1" max="4">
+                    <button class="plusBtn">&plus;</button>
                 </div>  
             </div>
 
             <div class="total-container">
-                <div class="total-details"><p>$<span id="totalCost">00.00</span></p></div>
-                <div class="total-details"><p>$<span id="totalCost">00.00</span></p></div>
-                <div class="total-details"><p>$<span id="totalCost">00.00</span></p></div>
+                <div class="total-details"><p>$<span class="totalCost">00.00</span></p></div>
+                <div class="total-details"><p>$<span class="totalCost">00.00</span></p></div>
+                <div class="total-details"><p>$<span class="totalCost">00.00</span></p></div>
             </div>
 
         </div>
